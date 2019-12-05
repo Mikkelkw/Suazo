@@ -3081,14 +3081,27 @@
 			}
 
 		}
-
 		@media screen and (max-width: 1080px) {
-
 			.wrapper > .inner {
 				width: 100%;
 			}
-
 		}
+		
+		footer
+		 {
+			  background-color: #812828;
+			  color: white;
+			  padding: 4em 0 2em 0;
+			  margin-left: 0;
+			  margin-right: 0;
+		  
+		  }
+		  .footerLogo 
+		{
+		  max-max-width: 100%;
+		  max-height: auto;
+		}
+	  
 
 /* Header */
 
@@ -3147,8 +3160,8 @@
 			z-index: 300;
 		}
 		#header .logo img{
-			position: relative;
-			height: 100%;
+			position: absolute;
+			max-height: 98%;
 		}
 
 			#header .logo:hover {
@@ -4005,6 +4018,6 @@ textarea {
 
 #contactform{
 	position: relative;
-	height: 90%;
+	height: 80%;
 	width: 100%;
 }
