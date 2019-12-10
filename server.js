@@ -17,8 +17,8 @@ var con = mysql.createConnection({
     host: "localhost",
     user: "root",
     password: "3560Hemsedal",
-    database: "contactus",
-    port: "1337"
+    database: "contact",
+    port: "3306"
   });
   
   con.connect(function(err) {
@@ -39,6 +39,6 @@ app.get('/', function(req, res){
     res.sendFile(html_dir + 'index.html');
 })
 
-app.listen(8080, function(){
+app.listen(3000, function(){
     console.log('Listening on port 8080');
 })
